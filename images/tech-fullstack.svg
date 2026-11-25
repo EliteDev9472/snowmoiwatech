@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" role="img" aria-label="One product in four layers: interface, API, data and infrastructure, joined by a single spine">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a3760"/><stop offset="1" stop-color="#0d1f38"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#a9d2ec" stop-opacity=".4"/><stop offset="1" stop-color="#a9d2ec" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="560" height="400" fill="url(#bg)"/>
+
+  <g fill="#f5f8fb">
+    <circle cx="44" cy="54" r="1.6" opacity=".6"/><circle cx="200" cy="34" r="1.2" opacity=".5"/>
+    <circle cx="512" cy="92" r="1.8" opacity=".5"/><circle cx="524" cy="348" r="1.4" opacity=".5"/>
+    <circle cx="36" cy="300" r="1.2" opacity=".4"/><circle cx="300" cy="26" r="1.2" opacity=".5"/>
+  </g>
+
+  <!-- Moiwa ridge, faint -->
+  <path d="M330 400L420 300L448 332L472 304L560 400Z" fill="#f5f8fb" opacity=".06"/>
+
+  <!-- the spine that joins every layer -->
+  <path d="M104 110V320" stroke="#a9d2ec" stroke-opacity=".45" stroke-width="2" stroke-dasharray="4 6"/>
+
+  <!-- layer 1: interface -->
+  <circle cx="280" cy="110" r="96" fill="url(#glow)"/>
+  <rect x="146" y="132" width="272" height="9" rx="4.5" fill="#0b1a2e" opacity=".55"/>
+  <rect x="140" y="88" width="284" height="44" rx="9" fill="#f5f8fb"/>
+  <g fill="#13294a"><circle cx="160" cy="110" r="4"/><circle cx="174" cy="110" r="4" opacity=".55"/><circle cx="188" cy="110" r="4" opacity=".3"/></g>
+  <rect x="206" y="100" width="124" height="8" rx="4" fill="#13294a"/>
+  <rect x="206" y="114" width="78" height="6" rx="3" fill="#13294a" opacity=".45"/>
+  <rect x="356" y="100" width="48" height="20" rx="10" fill="#3d8fc4"/>
+
+  <!-- layer 2: API -->
+  <rect x="146" y="202" width="272" height="9" rx="4.5" fill="#0b1a2e" opacity=".55"/>
+  <rect x="140" y="158" width="284" height="44" rx="9" fill="#a9d2ec"/>
+  <path d="M158 170L150 180L158 190M198 170L206 180L198 190M186 168L170 192" stroke="#0d1f38" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="226" y="170" width="104" height="8" rx="4" fill="#0d1f38"/>
+  <rect x="226" y="184" width="64" height="6" rx="3" fill="#0d1f38" opacity=".5"/>
+  <path d="M356 180H402M392 172L402 180L392 188" stroke="#0d1f38" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- layer 3: data -->
+  <rect x="146" y="272" width="272" height="9" rx="4.5" fill="#0b1a2e" opacity=".55"/>
+  <rect x="140" y="228" width="284" height="44" rx="9" fill="#3d8fc4"/>
+  <g stroke="#f5f8fb" stroke-width="2.4" fill="none">
+    <ellipse cx="174" cy="240" rx="18" ry="6"/>
+    <path d="M156 240v10c0 3.3 8 6 18 6s18-2.7 18-6v-10"/>
+    <path d="M156 250v10c0 3.3 8 6 18 6s18-2.7 18-6v-10"/>
+  </g>
+  <rect x="226" y="240" width="112" height="8" rx="4" fill="#f5f8fb"/>
+  <rect x="226" y="254" width="72" height="6" rx="3" fill="#f5f8fb" opacity=".6"/>
+  <g fill="#0d1f38" opacity=".5"><rect x="356" y="240" width="48" height="6" rx="3"/><rect x="356" y="254" width="34" height="6" rx="3"/></g>
+
+  <!-- layer 4: infrastructure -->
+  <rect x="140" y="298" width="284" height="44" rx="9" fill="#13294a" stroke="#a9d2ec" stroke-width="2.2"/>
+  <g stroke="#a9d2ec" stroke-width="2.2" fill="none">
+    <rect x="158" y="310" width="34" height="9" rx="2"/>
+    <rect x="158" y="323" width="34" height="9" rx="2"/>
+  </g>
+  <rect x="226" y="310" width="96" height="8" rx="4" fill="#a9d2ec"/>
+  <rect x="226" y="324" width="58" height="6" rx="3" fill="#a9d2ec" opacity=".55"/>
+  <g fill="#a9d2ec"><circle cx="366" cy="320" r="4"/><circle cx="382" cy="320" r="4" opacity=".6"/><circle cx="398" cy="320" r="4" opacity=".35"/></g>
+
+  <!-- spine nodes: one team holding all four -->
+  <g fill="#0d1f38" stroke="#f5f8fb" stroke-width="2.4">
+    <circle cx="104" cy="110" r="7"/><circle cx="104" cy="180" r="7"/>
+    <circle cx="104" cy="250" r="7"/><circle cx="104" cy="320" r="7"/>
+  </g>
+
+  <!-- snowflake accents -->
+  <path d="M472 60l4 11 11 4-11 4-4 11-4-11-11-4 11-4z" fill="#f5f8fb"/>
+  <path d="M62 196l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#a9d2ec"/>
+</svg>

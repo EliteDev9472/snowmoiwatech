@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" role="img" aria-label="A chain of hexagonal ice-crystal blocks protected by a shield">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a3760"/><stop offset="1" stop-color="#0d1f38"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#a9d2ec" stop-opacity=".45"/><stop offset="1" stop-color="#a9d2ec" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="560" height="400" fill="url(#bg)"/>
+
+  <g fill="#f5f8fb">
+    <circle cx="50" cy="60" r="1.6" opacity=".6"/><circle cx="180" cy="40" r="1.2" opacity=".5"/>
+    <circle cx="470" cy="70" r="1.8" opacity=".5"/><circle cx="530" cy="300" r="1.4" opacity=".5"/>
+    <circle cx="30" cy="160" r="1.2" opacity=".4"/><circle cx="250" cy="80" r="1.2" opacity=".5"/>
+  </g>
+
+  <!-- distributed network -->
+  <path d="M60 360H500" stroke="#a9d2ec" stroke-opacity=".3" stroke-width="1.5"/>
+  <g stroke="#a9d2ec" stroke-opacity=".3" stroke-dasharray="3 5" stroke-width="1.5">
+    <path d="M100 302V360M220 242V360M340 302V360M460 242V360"/>
+  </g>
+  <g fill="#0d1f38" stroke="#a9d2ec" stroke-width="2">
+    <circle cx="60" cy="360" r="6"/><circle cx="160" cy="360" r="6"/><circle cx="280" cy="360" r="6"/>
+    <circle cx="400" cy="360" r="6"/><circle cx="500" cy="360" r="6"/>
+  </g>
+  <g fill="#a9d2ec">
+    <circle cx="100" cy="360" r="4"/><circle cx="220" cy="360" r="4"/><circle cx="340" cy="360" r="4"/><circle cx="460" cy="360" r="4"/>
+  </g>
+
+  <!-- chain links -->
+  <path d="M100 250L220 190L340 250L460 190" stroke="#a9d2ec" stroke-width="3" fill="none" stroke-linejoin="round"/>
+  <g fill="#0d1f38" stroke="#f5f8fb" stroke-width="2.5">
+    <rect x="150" y="212" width="20" height="16" rx="8"/>
+    <rect x="270" y="212" width="20" height="16" rx="8"/>
+    <rect x="390" y="212" width="20" height="16" rx="8"/>
+  </g>
+
+  <!-- blocks -->
+  <g fill="#13294a" stroke="#a9d2ec" stroke-width="2.2" stroke-linejoin="round">
+    <polygon points="100,198 145,224 145,276 100,302 55,276 55,224"/>
+    <polygon points="220,138 265,164 265,216 220,242 175,216 175,164"/>
+    <polygon points="340,198 385,224 385,276 340,302 295,276 295,224"/>
+  </g>
+  <g fill="#a9d2ec">
+    <rect x="78" y="236" width="44" height="6" rx="3"/><rect x="78" y="248" width="30" height="6" rx="3" opacity=".6"/><rect x="78" y="260" width="38" height="6" rx="3" opacity=".6"/>
+    <rect x="198" y="176" width="44" height="6" rx="3"/><rect x="198" y="188" width="30" height="6" rx="3" opacity=".6"/><rect x="198" y="200" width="38" height="6" rx="3" opacity=".6"/>
+    <rect x="318" y="236" width="44" height="6" rx="3"/><rect x="318" y="248" width="30" height="6" rx="3" opacity=".6"/><rect x="318" y="260" width="38" height="6" rx="3" opacity=".6"/>
+  </g>
+
+  <!-- newest, verified block -->
+  <circle cx="460" cy="190" r="80" fill="url(#glow)"/>
+  <polygon points="460,138 505,164 505,216 460,242 415,216 415,164" fill="#f5f8fb" stroke="#f5f8fb" stroke-width="2.2" stroke-linejoin="round"/>
+  <rect x="438" y="176" width="44" height="6" rx="3" fill="#3d8fc4"/>
+  <rect x="438" y="188" width="30" height="6" rx="3" fill="#a9d2ec"/>
+  <rect x="438" y="200" width="38" height="6" rx="3" fill="#a9d2ec"/>
+  <circle cx="497" cy="146" r="14" fill="#3d8fc4" stroke="#0d1f38" stroke-width="3"/>
+  <path d="M490 146L495 151L504 141" stroke="#f5f8fb" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- shield + lock -->
+  <path d="M340 66L374 79V106C374 129 359 144 340 152C321 144 306 129 306 106V79Z" fill="#0d1f38" stroke="#f5f8fb" stroke-width="2.4" stroke-linejoin="round"/>
+  <rect x="328" y="104" width="24" height="20" rx="3" fill="#a9d2ec"/>
+  <path d="M332 104V98A8 8 0 0 1 348 98V104" stroke="#a9d2ec" stroke-width="2.6" fill="none"/>
+  <circle cx="340" cy="114" r="2.6" fill="#0d1f38"/>
+</svg>

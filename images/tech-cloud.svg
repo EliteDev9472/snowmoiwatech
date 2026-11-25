@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" role="img" aria-label="A cloud connected to servers, protected by a security shield">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a3760"/><stop offset="1" stop-color="#0d1f38"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f8fb"/><stop offset="1" stop-color="#dbe8f2"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="400" fill="url(#bg)"/>
+
+  <g fill="#f5f8fb">
+    <circle cx="40" cy="300" r="1.6" opacity=".6"/><circle cx="150" cy="30" r="1.2" opacity=".5"/>
+    <circle cx="420" cy="30" r="1.8" opacity=".5"/><circle cx="530" cy="250" r="1.4" opacity=".5"/>
+    <circle cx="300" cy="380" r="1.2" opacity=".4"/>
+  </g>
+
+  <!-- uptime ring -->
+  <circle cx="86" cy="96" r="30" fill="none" stroke="#a9d2ec" stroke-opacity=".25" stroke-width="6"/>
+  <path d="M86 66A30 30 0 1 1 57.5 86.7" fill="none" stroke="#a9d2ec" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="86" cy="96" r="5" fill="#f5f8fb"/>
+
+  <!-- cloud with Moiwa mark -->
+  <path d="M210 190C183 190 165 172 165 150C165 128 182 111 204 111C210 84 234 66 264 66C292 66 316 83 324 108C330 106 336 105 342 105C371 105 394 127 394 156C394 174 382 190 360 190Z" fill="url(#cloud)"/>
+  <path d="M240 168L268 132L280 146L290 136L320 168Z" fill="#13294a"/>
+  <path d="M260 142L268 132L280 146L290 136L298 144L290 142L280 152L268 140Z" fill="#a9d2ec"/>
+
+  <!-- connections -->
+  <g stroke="#a9d2ec" stroke-width="2.2" fill="none" stroke-linejoin="round">
+    <path d="M280 190V240M280 214H140V240M280 214H420V240"/>
+  </g>
+  <g fill="#f5f8fb"><circle cx="280" cy="214" r="4.5"/><circle cx="140" cy="214" r="3.5"/><circle cx="420" cy="214" r="3.5"/></g>
+
+  <!-- server stacks -->
+  <g fill="#13294a" stroke="#a9d2ec" stroke-width="1.8">
+    <rect x="85" y="240" width="110" height="28" rx="6"/><rect x="85" y="274" width="110" height="28" rx="6"/><rect x="85" y="308" width="110" height="28" rx="6"/>
+    <rect x="225" y="240" width="110" height="28" rx="6"/><rect x="225" y="274" width="110" height="28" rx="6"/><rect x="225" y="308" width="110" height="28" rx="6"/>
+    <rect x="365" y="240" width="110" height="28" rx="6"/><rect x="365" y="274" width="110" height="28" rx="6"/><rect x="365" y="308" width="110" height="28" rx="6"/>
+  </g>
+  <g fill="#a9d2ec">
+    <circle cx="100" cy="254" r="3.5"/><circle cx="100" cy="288" r="3.5"/><circle cx="100" cy="322" r="3.5" fill="#f5f8fb"/>
+    <circle cx="240" cy="254" r="3.5" fill="#f5f8fb"/><circle cx="240" cy="288" r="3.5"/><circle cx="240" cy="322" r="3.5"/>
+    <circle cx="380" cy="254" r="3.5"/><circle cx="380" cy="288" r="3.5" fill="#f5f8fb"/><circle cx="380" cy="322" r="3.5"/>
+  </g>
+  <g fill="#a9d2ec" opacity=".45">
+    <rect x="114" y="252" width="54" height="4" rx="2"/><rect x="114" y="286" width="40" height="4" rx="2"/><rect x="114" y="320" width="48" height="4" rx="2"/>
+    <rect x="254" y="252" width="40" height="4" rx="2"/><rect x="254" y="286" width="54" height="4" rx="2"/><rect x="254" y="320" width="44" height="4" rx="2"/>
+    <rect x="394" y="252" width="48" height="4" rx="2"/><rect x="394" y="286" width="40" height="4" rx="2"/><rect x="394" y="320" width="54" height="4" rx="2"/>
+  </g>
+  <path d="M60 356H500" stroke="#a9d2ec" stroke-opacity=".25" stroke-width="1.5"/>
+
+  <!-- security shield -->
+  <path d="M474 64L508 77V104C508 127 493 142 474 150C455 142 440 127 440 104V77Z" fill="#3d8fc4" stroke="#f5f8fb" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M461 106L470 115L488 96" stroke="#f5f8fb" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
